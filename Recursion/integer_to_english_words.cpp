@@ -266,7 +266,7 @@ string numberToWords(long long int num){
 }
 
 int main(){
-    string ans = helperRE(300);
+    string ans = numberToWords(300);
     cout<<ans<<":::::::::::::::::"<<endl;
 return 0;
 }
